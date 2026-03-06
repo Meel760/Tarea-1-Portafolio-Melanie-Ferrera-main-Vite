@@ -1,0 +1,18 @@
+{
+  "name": "tarea-1-portafolio-melanie-ferrera-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "less": "^4.5.1",
+    "vite": "^7.3.1",
+    "vite-plugin-purgecss": "^0.2.13"
+  }
+}

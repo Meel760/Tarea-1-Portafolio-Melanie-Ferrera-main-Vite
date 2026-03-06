@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Melanie Ferrera</title>
+    <meta name="descripcion" content="Soy Desarrolladora web con pasión por el diseño funcional y eficiente. 
+        Tengo experiencia en la creación de sitios web con HTML, CSS y giJavaScript Siempre estoy 
+        aprendiendo nuevas tecnologías y me enfoco en construir interfaces accesibles, 
+        intuitivas y responsivas para todo tipo de usuarios.">
+    <link rel="icon" type="jpg" href="perfil.jpg">
+
+</head>
+<body>
+    
+    <header>
+        <h1>Portafolio de Melanie Ferrera</h1>
+        <p>Desarrolladora Web</p>
+
+        <nav>
+            <a href="#Experiencia">Experiencia</a>
+            <a href="#Proyectos">Proyectos</a>
+            <a href="#Contacto">Contacto</a>
+            <a href="#Mision">Mision</a>
+        </nav>
+    </header>
+        
+
+    
+    <main>
+        <section class="perfil">
+        <img 
+        id="foto-perfil"
+        width="200"
+        height="200"
+        title="Foto de perfil" 
+        src="perfil.jpg" alt="Foto de perfil de Melanie Ferrera" 
+        >
+        <p>Soy Desarrolladora web con pasión por el diseño funcional y eficiente. 
+        Tengo experiencia en la creación de sitios web con HTML, CSS y JavaScript Siempre estoy 
+        aprendiendo nuevas tecnologías y me enfoco en construir interfaces accesibles, 
+        intuitivas y responsivas para todo tipo de usuarios.</p>
+    </section>
+    
+    <section 
+    class="Experiencia">  
+    <h2 id="Experiencia">Experiencia</h2>
+      <ul>
+    <li>💼 1 año como desarrollador web freelance, creando sitios para pequeños negocios.</li>
+    <li>🖥️ Pasantía en una agencia digital, apoyando en maquetación HTML/CSS y corrección de errores.</li>
+    <li>📚 Colaboración en proyectos estudiantiles usando JavaScript vanilla y Bootstrap.</li>
+    <li>🔧 Mantenimiento de páginas web y actualización de contenido para clientes locales.</li>
+  </ul>
+    </section>
+
+    <section 
+    class="proyectos">  
+    <h2 id="Proyectos">Proyectos</h2>
+      <ul>
+        <li>📄 Sitio personal con HTML y CSS</li>
+        <li>📱 Diseño responsivo para móviles</li>
+        <li>📧 Formulario de contacto funcional</li>
+      </ul>
+    </section>
+
+    <section class="Contacto">
+        <h2 id="Contacto">Contacto</h2>
+        <p>Email: ferrera760@gmail.com</p>
+        <p>Cel: +504 9999-0000</p>
+        <button onclick="showMessage()">Enviar mensaje</button>
+    </section>
+
+    <section>
+     <h2>Formulario de contacto</h2>
+     <form method="post" action="/">
+        <fieldset>
+            <legend>Informacion personal</legend>
+            <Label for="name">Nombre:</Label>
+            <input type="text"  id="name" name="name"
+            placeholder="Melanie Ferrera" required>
+    <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email"
+            placeholder="ferrera760@gmail.com" required>
+    </div>
+    <div>
+            <label for="telefono">Telefono:</label>
+            <input type="tel" name="telefono"
+            placeholder="+504 0000-0000" required>
+    </div>   
+    <div>
+            <datalist id="Languages">
+                <option value="JavaScript"></option>
+                <option value="Python"></option>
+                <option value="Java"></option>
+                <option value="C#"></option>
+            </datalist>
+
+        <label>
+            ¿Con que lenguaje quieres que te ayude?
+            <input list="Languages" name="Languages">
+        </label>
+    </div>
+        </fieldset>
+        
+        <button type="submit">Enviar contacto</button>
+
+     </form>   
+    </section>
+
+    </main>
+
+
+    <footer>
+        <p>Copyright © 2025 Melanie Ferrera</p>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+</body>
+</html>
